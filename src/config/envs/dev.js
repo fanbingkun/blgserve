@@ -53,7 +53,7 @@ module.exports = {
         region: 'oss-cn-beijing',
     },
     // 阿里云 OSS CDN 配置，Sam 老师提供
-    aliyunOSS_CDNHost: 'static-dev.imooc-lego.com',
+    aliyunOSS_CDNHost: 'fbkimooc-lego.oss-cn-beijing.aliyuncs.com',
 
     // 百度云内容审核
     baiduCloudCensorConf: {

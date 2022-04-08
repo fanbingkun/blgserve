@@ -39,6 +39,7 @@ async function uploadOSS(fileName, filePath) {
         const folder = 'upload-files' // OSS 的文件夹
         // 使用 stream 上传，效率高
         const res = await client.putStream(`${folder}/${fileName}`, stream)
+        console.log(res, '阿里云url')
         return replaceCDNHost(res.url)
     } catch (ex) {
         console.error('阿里云 OSS 上传错误', ex)
