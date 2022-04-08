@@ -59,7 +59,7 @@ app.use(utils.routes(), utils.allowedMethods())
 
 // error-handling
 app.on('error', (err, ctx) => {
-    console.error('server error', err, ctx)
+    console.error('server error2', err, ctx)
 })
 
 module.exports = app
